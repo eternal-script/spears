@@ -1,0 +1,115 @@
+local module = {
+    ["Barbed Spear"] = {
+        Color = "0.537255, 0.529412, 0.745098";
+        Handling = 10;
+        Hint = "Made with hands of steel.";
+        Icon = "rbxassetid://79743399121943";
+        Piercing = 30;
+        Power = 6;
+        Price = -1;
+        Recipe = {
+            LevelRequired = 0;
+            Materials = {{"Driftwood", 1, "Shrouded", "rbxassetid://114790076610770"}, {
+    [1] = "Barbed Spearhead";
+    [2] = 1;
+    [4] = "rbxassetid://107296900617789"
+}}
+        };
+    };
+    ["Coral Spear"] = {
+        BestiaryRequirement = {
+            Island = "Coral Bastion";
+            Requirement = 75
+        };
+        Color = "0.839216, 0.67451, 1";
+        Handling = 20;
+        Icon = "rbxassetid://101932461671814";
+        MutationPool = {
+            Coral = 100
+        };
+        Piercing = 25;
+        Power = 4;
+        Price = 75000;
+    };
+    Craftable = {
+        [1] = "Barbed Spear";
+        [2] = "Poison-Tipped Spear";
+    };
+    ["Flimsy Spear"] = {
+        Color = "0.603922, 0.666667, 0.745098";
+        Handling = 0;
+        Icon = "rbxassetid://137259374427427";
+        Piercing = 0;
+        Power = 3;
+        Price = 150;
+    };
+    ["Mini Spear"] = {
+        Color = "0.32549, 0.32549, 0.32549";
+        Handling = 0;
+        Icon = "rbxassetid://137259374427427";
+        Piercing = 20;
+        Power = 4;
+        Price = 9000;
+    };
+    ["Poison-Tipped Spear"] = {
+        Color = "0.458824, 0.313726, 0.745098";
+        Handling = 30;
+        Hint = "Be careful, it's poisonous.";
+        Icon = "rbxassetid://138599452063390";
+        Piercing = 5;
+        Power = 10;
+        Price = -1;
+        Recipe = {
+            LevelRequired = 0;
+            Materials = {{"Driftwood", 1, "Poisoned", "rbxassetid://103350424489790"}, {
+    [1] = "Poisonous Spearhead";
+    [2] = 1;
+    [4] = "rbxassetid://140054951560787"
+}}
+        };
+    };
+    ["Royal Spear"] = {
+        BestiaryRequirement = {
+            Island = "Crowned Ruins";
+            Requirement = 100
+        };
+        Color = "1, 0.823529, 0.466667";
+        Handling = 23;
+        Icon = "rbxassetid://131839759123451";
+        MutationPool = {
+            Midas = 35;
+            Royal = 35
+        };
+        Piercing = 30;
+        Power = 11;
+        Price = 3750000;
+    };
+    ["Steady Spear"] = {
+        Color = "0.745098, 0.647059, 0.513726";
+        Handling = 40;
+        Icon = "rbxassetid://137259374427427";
+        Piercing = 2.5;
+        Power = 6;
+        Price = 15000;
+    };
+    ["Withered Spear"] = {
+        BestiaryRequirement = {
+            Island = "Tidefall";
+            Requirement = 100
+        };
+        Color = "0.176471, 0.105882, 0.105882";
+        Handling = -10;
+        Icon = "rbxassetid://102952105197704";
+        MutationPool = {
+            Withered = 25
+        };
+        Piercing = 3;
+        Power = 15;
+        Price = 1750000;
+    };
+}
+
+return module
+-- Module: Spears
+-- Total items: 9
+-- System fields: 0
