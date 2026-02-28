@@ -17,10 +17,10 @@ local module = {
         };
     };
     ["Coral Spear"] = {
-        BestiaryRequirement = {
-            Island = "Coral Bastion";
-            Requirement = 75
-        };
+        BestiaryRequirement = {{
+    Island = "Coral Bastion";
+    Requirement = 75
+}};
         Color = "0.839216, 0.67451, 1";
         Handling = 20;
         Icon = "rbxassetid://101932461671814";
@@ -69,10 +69,10 @@ local module = {
         };
     };
     ["Royal Spear"] = {
-        BestiaryRequirement = {
-            Island = "Crowned Ruins";
-            Requirement = 100
-        };
+        BestiaryRequirement = {{
+    Island = "Crowned Ruins";
+    Requirement = 100
+}};
         Color = "1, 0.823529, 0.466667";
         Handling = 23;
         Icon = "rbxassetid://131839759123451";
@@ -93,10 +93,10 @@ local module = {
         Price = 15000;
     };
     ["Withered Spear"] = {
-        BestiaryRequirement = {
-            Island = "Tidefall";
-            Requirement = 100
-        };
+        BestiaryRequirement = {{
+    Island = "Tidefall";
+    Requirement = 100
+}};
         Color = "0.176471, 0.105882, 0.105882";
         Handling = -10;
         Icon = "rbxassetid://102952105197704";
